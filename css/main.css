@@ -247,10 +247,12 @@ header .main-menu .item .item__contents .contents__texture{
   background-image: url(../images/main_menu_pattern.jpg);
 }
 header .main-menu .item .item__contents .contents__texture a {
-  float: left;
   color: #999;
   font-weight: 700;
   margin-right: 10px;
+}
+header .main-menu .item .item__contents .contents__texture a.new {
+  float: left;
 }
 header .main-menu .item .item__contents .contents__texture a:hover {
   text-decoration: underline;
@@ -258,9 +260,9 @@ header .main-menu .item .item__contents .contents__texture a:hover {
 header .main-menu .item .item__contents .contents__texture p {
   clear: both;
   color: #669900;
-  margin: 4px 0 14px;
+  line-height: 1.6;
+  margin: 4px 0 10px;
 }
-
 header .badges {
   position: absolute;
   top: 132px;
